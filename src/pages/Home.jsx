@@ -1,198 +1,135 @@
 import { Link } from "react-router-dom";
 import PageBanner from "../components/PageBanner";
+import heroImage from "../assets/images/hero-image.jpg";
 
 function Home() {
-  return (
-    <>
-      <PageBanner
-        title="Educa IA"
-        subtitle="Generación de contenidos educativos para nivel primario mediante Inteligencia Artificial."
-      />
+    return (
+        <>
+            <PageBanner
+                title="Difracta IA"
+                subtitle="Generación de contenidos educativos para nivel primario mediante Inteligencia Artificial."
+                image={heroImage}
+            />
 
-      {/* Presentación */}
-      <section className="section">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <h2 className="section-title">
-                Enseñar con creatividad y tecnología
-              </h2>
+            <section className="intro-section">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-9 text-center">
+                            <h2 className="section-title"> Enseñar con creatividad y tecnología  </h2>
 
-              <p>
-                Educa IA reúne herramientas de Inteligencia Artificial orientadas a la creación de recursos educativos para docentes de nivel primario.
-              </p>
+                            <p className="intro-text">
+                                Difracta IA reúne herramientas de Inteligencia Artificial orientadas a la creación de recursos educativos para docentes de nivel primario.
+                                Generá textos, imágenes, podcasts, videos y chatbots educativos de forma rápida y personalizada.
+                            </p>
 
-              <p>
-                Generá textos, imágenes, podcasts, videos y chatbots educativos de forma rápida y personalizada.
-              </p>
-            </div>
 
-            <div className="col-lg-6 text-center">
-              <i className="ri-robot-2-line home-icon"></i>
-            </div>
-          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        </div>
-      </section>
+            <section className="tools-section">
+                <div className="container">
+                    <div className="text-center mb-5">
+                        <h2 className="section-title">
+                            Centro de Recursos
+                        </h2>
+                        <p className="section-subtitle">
+                            Herramientas para diseñar experiencias educativas innovadoras.
+                        </p>
 
-      {/* Herramientas */}
-      <section className="section tools-section">
-        <div className="container">
-          <h2 className="section-title text-center mb-5">
-            Herramientas Disponibles
-          </h2>
+                    </div>
+                    
+                    <div className="row g-4">
+                        <div className="col-md-6 col-lg-4">
+                            <Link to="/textos" className="tool-card">
+                                <div className="tool-icon">
+                                    <i className="ri-file-text-line"></i>
+                                </div>
 
-          <div className="row g-4">
-            <div className="col-md-6 col-lg-4">
-              <Link to="/textos" className="tool-card">
-                <i className="ri-file-text-line"></i>
-                <h4>Texto</h4>
-                <p>
-                  Cuentos, actividades, evaluaciones y consignas.
-                </p>
-              </Link>
-            </div>
+                                <h4>Textos</h4>
 
-            <div className="col-md-6 col-lg-4">
-              <Link to="/imagenes" className="tool-card">
-                <i className="ri-image-line"></i>
-                <h4>Imágenes</h4>
-                <p>
-                  Recursos visuales e ilustraciones educativas.
-                </p>
-              </Link>
-            </div>
+                                <p>
+                                    Actividades, secuencias didácticas, cuentos,
+                                    consignas y evaluaciones.
+                                </p>
 
-            <div className="col-md-6 col-lg-4">
-              <Link to="/podcast" className="tool-card">
-                <i className="ri-mic-line"></i>
-                <h4>Podcast</h4>
-                <p>
-                  Audio educativo para diferentes áreas curriculares.
-                </p>
-              </Link>
-            </div>
+                            </Link>
+                        </div>
 
-            <div className="col-md-6 col-lg-6">
-              <Link to="/videos" className="tool-card">
-                <i className="ri-video-line"></i>
-                <h4>Videos y Animaciones</h4>
-                <p>
-                  Material audiovisual para acompañar aprendizajes.
-                </p>
-              </Link>
-            </div>
+                        <div className="col-md-6 col-lg-4">
+                            <Link to="/imagenes" className="tool-card">
 
-            <div className="col-md-6 col-lg-6">
-              <Link to="/chatbots" className="tool-card">
-                <i className="ri-robot-line"></i>
-                <h4>Chatbots</h4>
-                <p>
-                  Asistentes conversacionales educativos.
-                </p>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+                                <div className="tool-icon">
+                                    <i className="ri-image-line"></i>
+                                </div>
 
-      {/* Beneficios */}
-      <section className="section">
-        <div className="container">
-          <h2 className="section-title text-center mb-5">
-            ¿Por qué utilizar IA en Educación Primaria?
-          </h2>
+                                <h4>Imágenes</h4>
 
-          <div className="row g-4">
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-                <i className="ri-time-line"></i>
-                <h5>Ahorro de tiempo</h5>
-              </div>
-            </div>
+                                <p>
+                                    Recursos visuales, ilustraciones y materiales
+                                    gráficos educativos.
+                                </p>
 
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-                <i className="ri-lightbulb-line"></i>
-                <h5>Creatividad</h5>
-              </div>
-            </div>
+                            </Link>
+                        </div>
 
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-                <i className="ri-group-line"></i>
-                <h5>Inclusión</h5>
-              </div>
-            </div>
+                        <div className="col-md-6 col-lg-4">
+                            <Link to="/podcast" className="tool-card">
 
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-                <i className="ri-settings-4-line"></i>
-                <h5>Personalización</h5>
-              </div>
-            </div>
-          </div>
-        </div>
+                                <div className="tool-icon">
+                                    <i className="ri-mic-line"></i>
+                                </div>
 
-      </section>
+                                <h4>Podcast</h4>
 
-      {/* Proceso */}
-      <section className="section process-section">
-        <div className="container">
-          <h2 className="section-title text-center mb-5">
-            Cómo funciona
-          </h2>
+                                <p>
+                                    Audios educativos para diferentes áreas
+                                    curriculares.
+                                </p>
 
-          <div className="row text-center">
-            <div className="col-lg-4">
-              <div className="step-card">
-                <span>1</span>
-                <h4>Elegí una herramienta</h4>
-              </div>
-            </div>
+                            </Link>
+                        </div>
 
-            <div className="col-lg-4">
-              <div className="step-card">
-                <span>2</span>
-                <h4>Definí tu necesidad</h4>
-              </div>
-            </div>
+                        <div className="col-md-6 col-lg-6">
+                            <Link to="/videos" className="tool-card">
 
-            <div className="col-lg-4">
-              <div className="step-card">
-                <span>3</span>
-                <h4>Generá contenido</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+                                <div className="tool-icon">
+                                    <i className="ri-video-line"></i>
+                                </div>
 
-      </section>
+                                <h4>Videos y Animaciones</h4>
 
-      {/* CTA */}
-      <section className="cta-section">
-        <div className="container text-center">
-          <h2>
-            Explorá las posibilidades de la IA en educación
-          </h2>
+                                <p>
+                                    Material audiovisual para potenciar el aprendizaje.
+                                </p>
 
-          <p>
-            Descubrí recursos, ejemplos y herramientas para potenciar
-            la enseñanza en el nivel primario.
-          </p>
+                            </Link>
+                        </div>
 
-          <Link
-            to="/textos"
-            className="btn btn-primary-custom"
-          >
-            Comenzar
-          </Link>
+                        <div className="col-md-6 col-lg-6">
+                            <Link to="/chatbots" className="tool-card">
 
-        </div>
-      </section>
+                                <div className="tool-icon">
+                                    <i className="ri-robot-2-line"></i>
+                                </div>
 
-    </>
-  );
+                                <h4>Chatbots</h4>
+
+                                <p>
+                                    Asistentes virtuales para acompañar procesos educativos.
+                                </p>
+
+                            </Link>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </>
+    );
 }
 
 export default Home;

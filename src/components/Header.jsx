@@ -32,15 +32,10 @@ function Header() {
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/nosotros">
-                Sobre Nosotros
+                Laboratorio de Prompts
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/nosotros">
-                Banco de Recursos
-              </NavLink>
-            </li>
             <li className="nav-item dropdown">
               <a
                 href="#"
@@ -48,7 +43,7 @@ function Header() {
                 role="button"
                 data-bs-toggle="dropdown"
               >
-                Herramientas
+                Centro de Recursos
               </a>
 
               <ul className="dropdown-menu">
