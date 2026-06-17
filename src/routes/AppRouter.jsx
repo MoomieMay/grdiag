@@ -3,6 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import MainLayout from "../layouts/MainLayout";
 import Textos from "../pages/Textos";
+import Podcast from "../pages/Podcast";
+import Imagenes from "../pages/Imagenes";
+import Videos from "../pages/Videos";
+import Laboratorio from "../pages/Laboratorio";
 
 function AppRouter() {
   return (
@@ -11,6 +15,10 @@ function AppRouter() {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/textos" element={<Textos />} />
+          <Route path="/podcast" element={<Podcast />} />
+          <Route path="/imagenes" element={<Imagenes />} />
+          <Route path="/videos" element={<Videos />} />
+          <Route path="/laboratorio" element={<Laboratorio />} />
         </Route>
       </Routes>
     </BrowserRouter>

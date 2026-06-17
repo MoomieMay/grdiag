@@ -31,7 +31,7 @@ function Header() {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/nosotros">
+              <NavLink className="nav-link" to="/laboratorio">
                 Laboratorio de Prompts
               </NavLink>
             </li>
