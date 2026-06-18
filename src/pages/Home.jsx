@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PageBanner from "../components/PageBanner";
 
-import heroImage from "../assets/images/hero-image.jpg";
+import heroImage from "../assets/images/hero.jpeg";
 
 // IMPORTAR FOTOS
 import diana from "../assets/images/diana.jpg";

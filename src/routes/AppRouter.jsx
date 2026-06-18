@@ -6,6 +6,7 @@ import Textos from "../pages/Textos";
 import Podcast from "../pages/Podcast";
 import Imagenes from "../pages/Imagenes";
 import Videos from "../pages/Videos";
+import EspacioWeb from "../pages/EspacioWeb";
 import Laboratorio from "../pages/Laboratorio";
 
 function AppRouter() {
@@ -18,6 +19,7 @@ function AppRouter() {
           <Route path="/podcast" element={<Podcast />} />
           <Route path="/imagenes" element={<Imagenes />} />
           <Route path="/videos" element={<Videos />} />
+          <Route path="/espacio-web" element={<EspacioWeb />} />
           <Route path="/laboratorio" element={<Laboratorio />} />
         </Route>
       </Routes>

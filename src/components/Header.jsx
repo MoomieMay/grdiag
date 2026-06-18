@@ -87,9 +87,9 @@ function Header() {
                 <li>
                   <Link
                     className="dropdown-item"
-                    to="/chatbots"
+                    to="/espacio-web"
                   >
-                    Chatbots
+                    Espacio Web
                   </Link>
                 </li>
 
