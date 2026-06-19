@@ -290,6 +290,13 @@ function Podcast() {
             distintos contextos de aprendizaje.
           </p>
 
+          <Link
+            to="/videos"
+            className="btn btn-secondary-custom fw-bold fs-5"
+          >
+            Explorar la creación de videos
+          </Link>
+
         </div>
       </section>
     </>

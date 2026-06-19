@@ -148,24 +148,23 @@ function Laboratorio() {
           <div className="row g-4">
 
             <div className="col-lg-4">
-              <div className="example-card">
-
+              <div className="lesson-card">
+                <i className="ri-user-star-line"></i>
                 <h4>Role Prompting</h4>
-
                 <p>
-                  Pedir a la IA que asuma un rol específico.
+                  Asignar un rol específico a la IA.
                 </p>
 
                 <div className="prompt-box">
                   Actúa como docente de Ciencias Naturales de 5° grado.
                 </div>
-
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <div className="example-card">
 
+            <div className="col-lg-4">
+              <div className="lesson-card">
+                <i className="ri-target-line"></i>
                 <h4>Prompt por Objetivo</h4>
 
                 <p>
@@ -179,51 +178,24 @@ function Laboratorio() {
               </div>
             </div>
 
+
             <div className="col-lg-4">
-              <div className="example-card">
-
+              <div className="lesson-card">
+                <i className="ri-file-copy-line"></i>
                 <h4>Few-Shot Prompting</h4>
-
                 <p>
-                  Proporcionar ejemplos previos para guiar la respuesta.
+                  Utilizar ejemplos para guiar respuestas.
                 </p>
-
                 <div className="prompt-box">
                   Ejemplo 1... Ejemplo 2... Ahora genera uno similar.
                 </div>
-
               </div>
             </div>
 
-          </div>
 
-        </div>
-      </section>
+          <div className="row g-4 centered justify-content-center">
 
-      {/* TÉCNICAS AVANZADAS */}
-
-      <section className="section bg-light">
-        <div className="container">
-
-          <div className="text-center mb-5">
-            <h2 className="section-title">
-              Técnicas Avanzadas
-            </h2>
-          </div>
-
-          <div className="row g-4">
-
-            <div className="col-lg-3">
-              <div className="lesson-card">
-                <i className="ri-user-star-line"></i>
-                <h4>Role Prompting</h4>
-                <p>
-                  Asignar un rol específico a la IA.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="lesson-card">
                 <i className="ri-flow-chart"></i>
                 <h4>Chain of Thought</h4>
@@ -233,17 +205,7 @@ function Laboratorio() {
               </div>
             </div>
 
-            <div className="col-lg-3">
-              <div className="lesson-card">
-                <i className="ri-file-copy-line"></i>
-                <h4>Few-Shot</h4>
-                <p>
-                  Utilizar ejemplos para guiar respuestas.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="lesson-card">
                 <i className="ri-refresh-line"></i>
                 <h4>Refinamiento</h4>
@@ -252,6 +214,7 @@ function Laboratorio() {
                 </p>
               </div>
             </div>
+          </div>
 
           </div>
 
@@ -260,7 +223,7 @@ function Laboratorio() {
 
       {/* PLANTILLAS */}
 
-      <section className="section">
+      <section className="section bg-light">
         <div className="container">
 
           <div className="text-center mb-5">
@@ -350,21 +313,7 @@ function Laboratorio() {
 
           </div>
 
-        </div>
-      </section>
-
-      {/* EJEMPLOS */}
-
-      <section className="section bg-light">
-        <div className="container">
-
-          <div className="text-center mb-5">
-            <h2 className="section-title">
-              Ejemplos por Área Curricular
-            </h2>
-          </div>
-
-          <div className="row g-4">
+          <div className="row g-4 mt-4">
 
             <div className="col-lg-4">
               <div className="example-card">
@@ -405,9 +354,9 @@ function Laboratorio() {
             </div>
 
           </div>
-
         </div>
       </section>
+
 
       {/* CONSTRUCTOR */}
 
@@ -417,7 +366,7 @@ function Laboratorio() {
 
           <div className="text-center mb-5">
             <h2 className="section-title">
-              Taller de Prompts
+              Generador de Prompts
             </h2>
 
             <p className="section-subtitle">

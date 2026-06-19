@@ -343,9 +343,9 @@ function Imagenes() {
 
           <Link
             to="/podcast"
-            className="btn btn-primary-custom"
+            className="btn btn-secondary-custom fw-bold fs-5"
           >
-            Explorar la creación de podcasts|
+            Explorar la creación de podcasts 
           </Link>
 
         </div>

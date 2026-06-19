@@ -42,7 +42,6 @@ function Textos() {
             </div>
 
             <div className="col-lg-6">
-
               <div className="highlight-card">
                 <i className="ri-file-text-line"></i>
 
@@ -209,6 +208,13 @@ function Textos() {
             Funciona como una herramienta de apoyo para potenciar la
             creatividad, optimizar tiempos y ampliar posibilidades.
           </p>
+
+          <Link
+            to="/imagenes"
+            className="btn btn-secondary-custom fw-bold fs-5"
+          >
+            Explorar la creación de imagenes 
+          </Link>
 
         </div>
       </section>

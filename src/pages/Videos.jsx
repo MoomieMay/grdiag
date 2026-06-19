@@ -398,6 +398,12 @@ function Videos() {
             inclusivos, dinámicos y significativos.
           </p>
 
+          <Link
+            to="/espacio-web"
+            className="btn btn-secondary-custom fw-bold fs-5"
+          >
+            Explorar la creación de espacios web 
+          </Link>
 
         </div>
       </section>
