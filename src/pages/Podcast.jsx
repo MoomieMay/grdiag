@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import Chatgpt from "../assets/images/chatgpt.png";
+import ElevenLabs from "../assets/images/eleven.png";
+import SunoAI from "../assets/images/sunoai.png";
 
 function Podcast() {
   return (
@@ -17,6 +20,8 @@ function Podcast() {
 
         </div>
       </section>
+
+
 
       <section className="section">
         <div className="container">
@@ -58,6 +63,41 @@ function Podcast() {
                   enseñanza, promover la escucha activa y ofrecer nuevas
                   formas de acceder al conocimiento.
                 </p>
+                <iframe
+                  title="SoundCloud Player"
+                  width="100%"
+                  height="166"
+                  scrolling="no"
+                  frameBorder="no"
+                  allow="autoplay; encrypted-media"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2342722031&color=%23b795f2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                />
+
+                <div
+                  style={{
+                    fontSize: "10px",
+                    color: "#cccccc",
+                    overflow: "hidden",
+                    whiteSpace: "nowrap",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  <a
+                    href="https://soundcloud.com/diana-lorena-perez"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Diana Lorena Pérez
+                  </a>
+                  {" · "}
+                  <a
+                    href="https://soundcloud.com/diana-lorena-perez/impacto-de-la-ia-en-educacion"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Impacto de la IA en Educación Primaria
+                  </a>
+                </div>
 
               </div>
 
@@ -78,9 +118,14 @@ function Podcast() {
           </div>
 
           <div className="row g-4">
-
             <div className="col-md-4">
-              <div className="example-card">
+              <div className="example-card h-100">
+
+                <img
+                  src={Chatgpt}
+                  alt="ChatGPT"
+                  className="img-fluid rounded mb-3"
+                />
 
                 <h4>ChatGPT</h4>
 
@@ -89,11 +134,27 @@ function Podcast() {
                   elaboración de contenidos educativos.
                 </p>
 
+                <a
+                  href="https://chatgpt.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary-custom mt-2"
+                >
+                  <i className="ri-external-link-line me-2"></i>
+                  Visitar herramienta
+                </a>
+
               </div>
             </div>
 
             <div className="col-md-4">
-              <div className="example-card">
+              <div className="example-card h-100">
+
+                <img
+                  src={ElevenLabs}
+                  alt="ElevenLabs"
+                  className="img-fluid rounded mb-3"
+                />
 
                 <h4>ElevenLabs</h4>
 
@@ -102,11 +163,27 @@ function Podcast() {
                   naturales y personalizables.
                 </p>
 
+                <a
+                  href="https://elevenlabs.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary-custom mt-2"
+                >
+                  <i className="ri-external-link-line me-2"></i>
+                  Visitar herramienta
+                </a>
+
               </div>
             </div>
 
             <div className="col-md-4">
-              <div className="example-card">
+              <div className="example-card h-100">
+
+                <img
+                  src={SunoAI}
+                  alt="Suno AI"
+                  className="img-fluid rounded mb-3"
+                />
 
                 <h4>Suno AI</h4>
 
@@ -114,6 +191,16 @@ function Podcast() {
                   Creación de música y ambientaciones sonoras para
                   acompañar los episodios.
                 </p>
+
+                <a
+                  href="https://suno.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary-custom mt-2"
+                >
+                  <i className="ri-external-link-line me-2"></i>
+                  Visitar herramienta
+                </a>
 
               </div>
             </div>
@@ -204,8 +291,7 @@ function Podcast() {
 
           <div className="text-center mb-5">
             <h2 className="section-title">
-              Aprendizajes obtenidos
-            </h2>
+              Consejos clave para diseñar con IA            </h2>
           </div>
 
           <div className="row g-4">

@@ -62,6 +62,17 @@ function Videos() {
                   la experiencia de aprendizaje.
                 </p>
 
+                <div className="ratio ratio-16x9">
+                  <iframe
+                    src="https://www.youtube.com/embed/nx-YWrpJp_8?si=dkf2V-oJjSv_Fv9Q"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  />
+                </div>
+
               </div>
 
             </div>
@@ -313,7 +324,7 @@ function Videos() {
           <div className="text-center mb-5">
 
             <h2 className="section-title">
-              Reflexiones del proyecto
+              Consejos clave para diseñar con IA
             </h2>
 
           </div>
@@ -402,7 +413,7 @@ function Videos() {
             to="/espacio-web"
             className="btn btn-secondary-custom fw-bold fs-5"
           >
-            Explorar la creación de espacios web 
+            Explorar la creación de espacios web
           </Link>
 
         </div>

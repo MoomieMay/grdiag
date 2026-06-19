@@ -79,10 +79,10 @@ function Textos() {
 
                 <h4>Cuento educativo</h4>
 
-                <p>
+                <div className="prompt-box">
                   Crear un cuento sobre el cuidado del ambiente para
                   estudiantes de 4° grado.
-                </p>
+                </div>
 
               </div>
             </div>
@@ -92,10 +92,10 @@ function Textos() {
 
                 <h4>Evaluación</h4>
 
-                <p>
+                <div className="prompt-box">
                   Diseñar una evaluación de Ciencias Naturales con
                   preguntas de opción múltiple.
-                </p>
+                </div>
 
               </div>
             </div>
@@ -105,16 +105,19 @@ function Textos() {
 
                 <h4>Actividad</h4>
 
-                <p>
+                <div className="prompt-box">
                   Generar una actividad colaborativa para trabajar la
                   comprensión lectora.
-                </p>
+                </div>
 
               </div>
             </div>
 
-          </div>
 
+          </div>
+          <button className="btn btn-primary-custom mt-4 centered d-block mx-auto fw-bold" onClick={() => window.open('https://chatgpt.com/share/6a358b20-7770-83e9-b21d-35b8fadac175', '_blank')}>
+            Ver ejemplo de generación de texto en ChatGPT
+          </button>
         </div>
       </section>
 
@@ -213,7 +216,7 @@ function Textos() {
             to="/imagenes"
             className="btn btn-secondary-custom fw-bold fs-5"
           >
-            Explorar la creación de imagenes 
+            Explorar la creación de imagenes
           </Link>
 
         </div>
