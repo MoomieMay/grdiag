@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import ImagenEjemplo from "../assets/images/tpack.jpeg";
 import Chatgpt from "../assets/images/chatgpt.png";
-import Capcut from "../assets/images/capcut.png";
-import GoogleVids from "../assets/images/googlevids.png";
+import Capcut from "../assets/images/capcut.PNG";
+import GoogleVids from "../assets/images/googlevids.PNG";
 
 function Imagenes() {
   return (
