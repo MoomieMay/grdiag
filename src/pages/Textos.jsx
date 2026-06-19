@@ -125,7 +125,7 @@ function Textos() {
           <div className="text-center mb-5">
 
             <h2 className="section-title">
-              Aprendizajes obtenidos
+              Consejos clave para diseñar con IA
             </h2>
 
           </div>
