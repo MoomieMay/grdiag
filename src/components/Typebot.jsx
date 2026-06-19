@@ -5,7 +5,7 @@ const Typebot = () => {
     <Bubble
       typebot="difracta-ia-9exoqq7"
       apiHost="https://typebot.io"
-      theme={{ button: { backgroundColor: "#1D1D1D" } }}
+      theme={{ button: { backgroundColor: "#8031ae" } }}
     />
   );
 };
