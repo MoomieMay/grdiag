@@ -200,7 +200,7 @@ function Home() {
                                     <i className="ri-robot-2-line"></i>
                                 </div>
 
-                                <h4>Chatbots</h4>
+                                <h4>Espacio Web</h4>
 
                                 <p>
                                     Asistentes virtuales para acompañar procesos educativos.
