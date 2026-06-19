@@ -341,6 +341,13 @@ function Imagenes() {
             trabajan conjuntamente para enseñar.
           </p>
 
+          <Link
+            to="/podcast"
+            className="btn btn-primary-custom"
+          >
+            Explorar la creación de podcasts|
+          </Link>
+
         </div>
       </section>
     </>
