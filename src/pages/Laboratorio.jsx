@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PromptWorkshop from "../components/PromptWorkshop";
 
 function Laboratorio() {
   return (
@@ -19,7 +20,7 @@ function Laboratorio() {
         </div>
       </section>
 
-      {/* Introducción */}
+      {/* INTRODUCCIÓN */}
 
       <section className="section">
         <div className="container">
@@ -69,19 +70,21 @@ function Laboratorio() {
         </div>
       </section>
 
-      {/* Estructura */}
+      {/* CTFR */}
 
       <section className="section bg-light">
         <div className="container">
 
           <div className="text-center mb-5">
+
             <h2 className="section-title">
               Estructura C-T-F-R
             </h2>
 
             <p className="section-subtitle">
-              Una estrategia simple para construir prompts más efectivos.
+              Una estrategia simple para construir prompts efectivos.
             </p>
+
           </div>
 
           <div className="row g-4">
@@ -131,7 +134,7 @@ function Laboratorio() {
         </div>
       </section>
 
-      {/* Técnicas */}
+      {/* TÉCNICAS */}
 
       <section className="section">
         <div className="container">
@@ -179,7 +182,7 @@ function Laboratorio() {
             <div className="col-lg-4">
               <div className="example-card">
 
-                <h4>Few Shot Prompting</h4>
+                <h4>Few-Shot Prompting</h4>
 
                 <p>
                   Proporcionar ejemplos previos para guiar la respuesta.
@@ -197,73 +200,205 @@ function Laboratorio() {
         </div>
       </section>
 
-      {/* Plantillas */}
+      {/* TÉCNICAS AVANZADAS */}
 
       <section className="section bg-light">
         <div className="container">
 
           <div className="text-center mb-5">
+            <h2 className="section-title">
+              Técnicas Avanzadas
+            </h2>
+          </div>
+
+          <div className="row g-4">
+
+            <div className="col-lg-3">
+              <div className="lesson-card">
+                <i className="ri-user-star-line"></i>
+                <h4>Role Prompting</h4>
+                <p>
+                  Asignar un rol específico a la IA.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="lesson-card">
+                <i className="ri-flow-chart"></i>
+                <h4>Chain of Thought</h4>
+                <p>
+                  Solicitar razonamiento paso a paso.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="lesson-card">
+                <i className="ri-file-copy-line"></i>
+                <h4>Few-Shot</h4>
+                <p>
+                  Utilizar ejemplos para guiar respuestas.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="lesson-card">
+                <i className="ri-refresh-line"></i>
+                <h4>Refinamiento</h4>
+                <p>
+                  Mejorar respuestas mediante nuevas indicaciones.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* PLANTILLAS */}
+
+      <section className="section">
+        <div className="container">
+
+          <div className="text-center mb-5">
 
             <h2 className="section-title">
-              Plantillas de Prompts
+              Biblioteca de Plantillas
             </h2>
+
+            <p className="section-subtitle">
+              Adaptá estas estructuras a tus necesidades.
+            </p>
 
           </div>
 
           <div className="row g-4">
 
-            <div className="col-lg-6">
+            <div className="col-lg-4">
+
               <div className="prompt-template">
 
-                <h4>
-                  Generación de Texto
-                </h4>
+                <h4>Actividad Escolar</h4>
 
                 <div className="prompt-box large">
+                  Actúa como docente de [GRADO].
 
-                  Actúa como docente de [ÁREA].
-                  <br />
-                  Diseña una actividad para estudiantes de [EDAD].
-                  <br />
-                  Tema: [TEMA].
-                  <br />
-                  Formato: [TIPO DE ACTIVIDAD].
-                  <br />
-                  Utiliza lenguaje claro y adecuado para el nivel.
+                  Diseña una actividad sobre [TEMA].
 
+                  Objetivos:
+                  - [OBJETIVO 1]
+                  - [OBJETIVO 2]
+
+                  Formato:
+                  [TIPO DE ACTIVIDAD]
+
+                  Lenguaje apropiado para estudiantes de [EDAD] años.
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className="col-lg-4">
+
+              <div className="prompt-template">
+
+                <h4>Evaluación</h4>
+
+                <div className="prompt-box large">
+                  Genera una evaluación sobre [TEMA].
+
+                  Incluye:
+
+                  - 5 preguntas múltiples
+                  - 3 verdadero/falso
+                  - 2 preguntas abiertas
+
+                  Nivel:
+                  [GRADO]
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className="col-lg-4">
+
+              <div className="prompt-template">
+
+                <h4>Cuento Educativo</h4>
+
+                <div className="prompt-box large">
+                  Escribe un cuento para estudiantes de [EDAD].
+
+                  Tema:
+                  [TEMA]
+
+                  Extensión:
+                  [PALABRAS]
+
+                  Debe incluir:
+                  Introducción, conflicto y resolución.
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* EJEMPLOS */}
+
+      <section className="section bg-light">
+        <div className="container">
+
+          <div className="text-center mb-5">
+            <h2 className="section-title">
+              Ejemplos por Área Curricular
+            </h2>
+          </div>
+
+          <div className="row g-4">
+
+            <div className="col-lg-4">
+              <div className="example-card">
+
+                <h4>Matemática</h4>
+
+                <div className="prompt-box">
+                  Actúa como docente de 5° grado.
+
+                  Genera 10 problemas de fracciones contextualizados en situaciones cotidianas.
                 </div>
 
               </div>
             </div>
 
-            <div className="col-lg-6">
-              <div className="prompt-template">
+            <div className="col-lg-4">
+              <div className="example-card">
 
-                <h4>
-                  Generación de Imágenes
-                </h4>
+                <h4>Ciencias Naturales</h4>
 
-                <div className="prompt-box large">
+                <div className="prompt-box">
+                  Explica el ciclo del agua para estudiantes de 8 años utilizando ejemplos sencillos.
+                </div>
 
-                  Genera una imagen ilustrativa para una fotocopia escolar
-                  sobre [TEMA].
-                  <br />
-                  Estilo: ilustración educativa limpia.
-                  <br />
-                  Colores brillantes.
-                  <br />
-                  Fondo blanco o neutro.
-                  <br />
-                  Que se vea: [DESCRIPCIÓN].
-                  <br />
-                  Sin texto.
-                  <br />
-                  Sin fotorrealismo.
-                  <br />
-                  Apropiada para estudiantes de [EDAD].
-                  <br />
-                  Formato: cuadrado.
+              </div>
+            </div>
 
+            <div className="col-lg-4">
+              <div className="example-card">
+
+                <h4>Lengua</h4>
+
+                <div className="prompt-box">
+                  Escribe un cuento breve sobre la amistad protagonizado por animales.
                 </div>
 
               </div>
@@ -274,42 +409,27 @@ function Laboratorio() {
         </div>
       </section>
 
-      {/* Ejemplo completo */}
+      {/* CONSTRUCTOR */}
+
 
       <section className="section">
         <div className="container">
 
           <div className="text-center mb-5">
             <h2 className="section-title">
-              Ejemplo Completo
+              Taller de Prompts
             </h2>
+
+            <p className="section-subtitle">
+              Construí prompts educativos paso a paso.
+            </p>
           </div>
 
-          <div className="prompt-example">
-
-            <h4>
-              Prompt para crear una imagen educativa
-            </h4>
-
-            <div className="prompt-box large">
-
-              Genera una imagen ilustrativa para usar en una fotocopia
-              escolar sobre el ciclo del agua.
-              Estilo: ilustración educativa limpia, colores brillantes,
-              fondo blanco.
-              Que se vea: un sol, nubes, lluvia cayendo sobre una montaña,
-              un río y el mar.
-              Sin texto.
-              Sin fotorrealismo.
-              Apropiada para niños de 8 años.
-              Formato cuadrado.
-
-            </div>
-
-          </div>
+          <PromptWorkshop />
 
         </div>
       </section>
+
 
       <section className="cta-textos">
         <div className="container text-center">
@@ -332,3 +452,4 @@ function Laboratorio() {
 }
 
 export default Laboratorio;
+

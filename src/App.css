@@ -137,7 +137,7 @@ a{
       #8031ae,
       #ab53ce
     );
-
+    color:white !important;
     border:none;
     padding:14px 30px;
     border-radius:50px;
@@ -657,4 +657,44 @@ a{
         padding:25px;
     }
 
+}
+
+
+.prompt-workshop{
+    margin-top:20px;
+}
+
+.workshop-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.generated-prompt{
+    background:#f8f9fa;
+    padding:25px;
+    border-radius:16px;
+    min-height:450px;
+    white-space:pre-wrap;
+    color:#0a192f;
+    font-family:monospace;
+    line-height:1.7;
+}
+
+
+.tool-link-card{
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+}
+
+.tool-link-card:hover{
+    transform: translateY(-6px);
+    color: inherit;
+}
+
+.tool-link-card img{
+    width: 100%;
+    border-radius: 12px;
 }

@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import ImagenEjemplo from "../assets/images/tpack.jpeg";
+import Chatgpt from "../assets/images/chatgpt.png";
+import Capcut from "../assets/images/capcut.png";
+import GoogleVids from "../assets/images/googlevids.png";
 
 function Imagenes() {
   return (
@@ -47,19 +51,17 @@ function Imagenes() {
 
             <div className="col-lg-6">
 
-              <div className="highlight-card">
+              <div className="highlight-card image-card">
 
-                <i className="ri-image-2-line"></i>
+                <img
+                  src={ImagenEjemplo}
+                  alt="Imagen generada con IA"
+                  className="img-fluid rounded"
+                />
 
-                <h3>
-                  Narrar mediante imágenes
-                </h3>
-
-                <p>
-                  Las imágenes generadas con IA permiten construir
-                  relatos visuales atractivos, favoreciendo la atención,
-                  la comprensión y la motivación de los estudiantes.
-                </p>
+                <div className="image-caption">
+                  Imagen generada con Nano Banana - Gemini
+                </div>
 
               </div>
 
@@ -79,48 +81,96 @@ function Imagenes() {
             </h2>
           </div>
 
-          <div className="row g-4">
+<div className="row g-4">
 
-            <div className="col-md-4">
-              <div className="example-card">
+  <div className="col-md-4">
+    <div className="example-card h-100">
 
-                <h4>ChatGPT</h4>
+      <img
+        src={Chatgpt}
+        alt="ChatGPT"
+        className="img-fluid rounded mb-3"
+      />
 
-                <p>
-                  Diseño de prompts descriptivos y planificación
-                  narrativa de las escenas.
-                </p>
+      <h4>ChatGPT</h4>
 
-              </div>
-            </div>
+      <p>
+        Diseño de prompts descriptivos y planificación
+        narrativa de las escenas.
+      </p>
 
-            <div className="col-md-4">
-              <div className="example-card">
+      <a
+        href="https://chatgpt.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-primary-custom mt-2"
+      >
+        <i className="ri-external-link-line me-2"></i>
+        Visitar herramienta
+      </a>
 
-                <h4>CapCut IA</h4>
+    </div>
+  </div>
 
-                <p>
-                  Generación inicial de escenas visuales y pruebas
-                  de animación mediante inteligencia artificial.
-                </p>
+  <div className="col-md-4">
+    <div className="example-card h-100">
 
-              </div>
-            </div>
+      <img
+        src={Capcut}
+        alt="CapCut IA"
+        className="img-fluid rounded mb-3"
+      />
 
-            <div className="col-md-4">
-              <div className="example-card">
+      <h4>CapCut IA</h4>
 
-                <h4>Google Vids</h4>
+      <p>
+        Generación inicial de escenas visuales y pruebas
+        de animación mediante inteligencia artificial.
+      </p>
 
-                <p>
-                  Producción final de la animación integrando
-                  movimiento, narración y continuidad visual.
-                </p>
+      <a
+        href="https://www.capcut.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-primary-custom mt-2"
+      >
+        <i className="ri-external-link-line me-2"></i>
+        Visitar herramienta
+      </a>
 
-              </div>
-            </div>
+    </div>
+  </div>
 
-          </div>
+  <div className="col-md-4">
+    <div className="example-card h-100">
+
+      <img
+        src={GoogleVids}
+        alt="Google Vids"
+        className="img-fluid rounded mb-3"
+      />
+
+      <h4>Google Vids</h4>
+
+      <p>
+        Producción final de la animación integrando
+        movimiento, narración y continuidad visual.
+      </p>
+
+      <a
+        href="https://workspace.google.com/products/vids/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-primary-custom mt-2"
+      >
+        <i className="ri-external-link-line me-2"></i>
+        Visitar herramienta
+      </a>
+
+    </div>
+  </div>
+
+</div>
 
         </div>
       </section>
@@ -206,7 +256,7 @@ function Imagenes() {
 
           <div className="text-center mb-5">
             <h2 className="section-title">
-              Aprendizajes obtenidos
+              Consejos clave para diseñar con IA
             </h2>
           </div>
 
@@ -220,7 +270,7 @@ function Imagenes() {
                 <h4>La iteración es fundamental</h4>
 
                 <p>
-                  Los mejores resultados surgieron después de múltiples
+                  Los mejores resultados surgen después de múltiples
                   ajustes y refinamientos de los prompts visuales.
                 </p>
 
@@ -235,8 +285,8 @@ function Imagenes() {
                 <h4>La coherencia visual requiere control</h4>
 
                 <p>
-                  Mantener la identidad del personaje a lo largo de
-                  distintas escenas demandó decisiones constantes.
+                  Mantener la identidad de un personaje a lo largo de
+                  distintas escenas demanda decisiones constantes.
                 </p>
 
               </div>
@@ -250,7 +300,7 @@ function Imagenes() {
                 <h4>Articular herramientas mejora el resultado</h4>
 
                 <p>
-                  La combinación de distintas plataformas permitió
+                  La combinación de distintas plataformas permite
                   superar limitaciones individuales y obtener un
                   producto más completo.
                 </p>

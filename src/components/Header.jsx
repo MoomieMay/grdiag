@@ -4,7 +4,6 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container">
-
         <Link className="navbar-brand fw-bold" to="/">
           <img
             src="/logo.png"
