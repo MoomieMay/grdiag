@@ -217,73 +217,7 @@ function EspacioWeb() {
         </div>
       </section>
 
-      {/* Beneficios */}
 
-      <section className="section bg-light">
-        <div className="container">
-
-          <div className="text-center mb-5">
-
-            <h2 className="section-title">
-              Beneficios educativos
-            </h2>
-
-          </div>
-
-          <div className="row g-4">
-
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-
-                <i className="ri-time-line"></i>
-
-                <h5>
-                  Respuestas inmediatas
-                </h5>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-
-                <i className="ri-user-heart-line"></i>
-
-                <h5>
-                  Aprendizaje personalizado
-                </h5>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-
-                <i className="ri-team-line"></i>
-
-                <h5>
-                  Participación activa
-                </h5>
-
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-3">
-              <div className="benefit-card">
-
-                <i className="ri-lightbulb-line"></i>
-
-                <h5>
-                  Mayor motivación
-                </h5>
-
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
 
       {/* CTA */}
 
