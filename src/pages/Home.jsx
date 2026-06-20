@@ -61,10 +61,12 @@ function Home() {
 
                         <div className="col-lg-6">
                             <div className="mission-card">
-
+                                <div className="mission-header">
                                 <i className="ri-compass-3-line"></i>
-
                                 <h3>Misión</h3>
+                                </div>
+
+
 
                                 <p>
                                     Acompañar a docentes e instituciones educativas
@@ -83,10 +85,10 @@ function Home() {
 
                         <div className="col-lg-6">
                             <div className="mission-card">
-
-                                <i className="ri-eye-line"></i>
-
-                                <h3>Visión</h3>
+                                <div className="mission-header">
+                                    <i className="ri-eye-line"></i>
+                                    <h3>Visión</h3>
+                                </div>
 
                                 <p>
                                     Consolidarnos como una consultora referente

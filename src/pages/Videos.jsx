@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import runway from "../assets/images/runway.png";
+import invideo from "../assets/images/invideo.png";
+import veedio from "../assets/images/veedio.png";
 
 function Videos() {
   return (
@@ -38,7 +41,7 @@ function Videos() {
               </p>
 
               <p>
-                En este proyecto se desarrolló un video educativo sobre
+                Como ejemplo, pueden ver como utilizando estas herramientas se desarrolló un video educativo sobre
                 creación de contenido mediante Inteligencia Artificial,
                 destinado a docentes de educación primaria, estudiantes de
                 formación docente y profesionales de Tecnología Educativa.
@@ -88,7 +91,7 @@ function Videos() {
           <div className="text-center mb-5">
 
             <h2 className="section-title">
-              Herramientas analizadas
+              Herramientas recomendadas
             </h2>
 
             <p className="section-subtitle">
@@ -99,9 +102,14 @@ function Videos() {
           </div>
 
           <div className="row g-4">
+            <div className="col-md-4">
+              <div className="example-card h-100">
 
-            <div className="col-lg-4">
-              <div className="example-card">
+                <img
+                  src={runway}
+                  alt="Runway"
+                  className="img-fluid rounded mb-3"
+                />
 
                 <h4>Runway</h4>
 
@@ -116,11 +124,27 @@ function Videos() {
                   <li>Múltiples estilos visuales</li>
                 </ul>
 
+                <a
+                  href="https://app.runwayml.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary-custom mt-2"
+                >
+                  <i className="ri-external-link-line me-2"></i>
+                  Visitar herramienta
+                </a>
+
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <div className="example-card">
+            <div className="col-md-4">
+              <div className="example-card h-100">
+
+                <img
+                  src={invideo}
+                  alt="InVideo AI"
+                  className="img-fluid rounded mb-3"
+                />
 
                 <h4>InVideo AI</h4>
 
@@ -135,24 +159,50 @@ function Videos() {
                   <li>Producción rápida</li>
                 </ul>
 
+                <a
+                  href="https://ai.invideo.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary-custom mt-2"
+                >
+                  <i className="ri-external-link-line me-2"></i>
+                  Visitar herramienta
+                </a>
+
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <div className="example-card">
+                        <div className="col-md-4">
+              <div className="example-card h-100">
+
+                <img
+                  src={veedio}
+                  alt="Veed.io"
+                  className="img-fluid rounded mb-3"
+                />
 
                 <h4>Veed.io</h4>
 
                 <p>
-                  Plataforma orientada a edición, subtitulado
-                  automático y accesibilidad audiovisual.
+                  Creación automática de videos con guion,
+                  narración y edición integrada.
                 </p>
 
                 <ul className="text-list">
-                  <li>Subtítulos automáticos</li>
-                  <li>Edición por transcripción</li>
-                  <li>Mayor accesibilidad</li>
+                  <li>Interfaz intuitiva</li>
+                  <li>Automatización avanzada</li>
+                  <li>Producción rápida</li>
                 </ul>
+
+                <a
+                  href="https://app.veedio.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary-custom mt-2"
+                >
+                  <i className="ri-external-link-line me-2"></i>
+                  Visitar herramienta
+                </a>
 
               </div>
             </div>

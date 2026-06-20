@@ -41,10 +41,9 @@ function Imagenes() {
               </p>
 
               <p>
-                En este proyecto se diseñó una secuencia audiovisual
-                protagonizada por Rodolfo, un personaje infantil creado
-                para acompañar una propuesta educativa destinada a
-                estudiantes de primer grado.
+                Con estas herramientas se pueden crear ilustraciones o animaciones
+                para acompañar una propuesta educativa contextualizada destinada a
+                estudiantes.
               </p>
 
             </div>
